@@ -1,0 +1,5 @@
+#non tracked file
+./datasets
+data/
+*__pycache__
+*run

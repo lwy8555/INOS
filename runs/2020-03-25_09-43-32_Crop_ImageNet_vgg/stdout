@@ -1,0 +1,17 @@
+dataset:Crop_ImageNet
+workers:4
+patch_size:224
+architecture:vgg
+depth:16
+pretrained:True
+in_and_out_score:True
+inos_loss:BCEWithLogitsLoss
+weight_init:kaiming-normal
+epochs:200
+batch_size:128
+learning_rate:0.1
+print_freq:100
+log_weights:False
+visualization_epoch:20
+resume:
+debug:True
